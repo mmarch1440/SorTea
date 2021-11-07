@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pickled files
+data/
+
+# Theme files
+forest-dark.tcl
+forest-dark/

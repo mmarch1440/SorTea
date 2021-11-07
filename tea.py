@@ -16,8 +16,8 @@ class TeaCompany:
         self.teas = []
     
     def addTea(self, tea):
-        if tea.name not in [x.name for x in self.teas]:
-            self.teas.Append(tea)
+        if tea.name not in [t.name for t in self.teas]:
+            self.teas.append(tea)
 
 class Tea:
     def __init__(self, name, score):
